@@ -122,6 +122,18 @@ nav a:hover {
   overflow: hidden;
 }
 
+  .product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: stretch;
+}
+
+  .card {
+  display: flex;
+  flex-direction: column;
+}
+
 .card {
   overflow: hidden;
 }
