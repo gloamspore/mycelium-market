@@ -58,7 +58,6 @@ nav a:hover {
   padding: 120px 0;
   text-align: center;
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-              url("images/hero.jpg");
   background-size: cover;
   background-position: center;
   color: white;
