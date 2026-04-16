@@ -76,10 +76,11 @@ nav a:hover {
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
+  transition: background 0.2s ease;
 }
 
 .button:hover {
-  background: #4a3024;
+  background: #3f2a20;
 }
 
 .products {
@@ -100,9 +101,13 @@ nav a:hover {
   overflow: hidden;
 }
 
-  .card:hover {
+  .card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
   transform: translateY(-5px);
-  transition: 0.2s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
   .product-grid {
